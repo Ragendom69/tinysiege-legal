@@ -38,11 +38,11 @@
 
 <header>
   <h1>Privacy Policy</h1>
-  <p class="meta"><strong>Tiny Siege</strong> &middot; Effective 15 November 2026 &middot; Last updated 15 November 2026</p>
+  <p class="meta"><strong>Tiny Siege</strong> &middot; Effective 15 November 2026 &middot; Last updated 16 November 2026</p>
 </header>
 
 <p>This Privacy Policy explains what information is collected when you play <strong>Tiny Siege</strong>
-(the &ldquo;Game&rdquo;, package identifier <code>com.ragendom.tinysiege</code>) on Android, why it is
+(the &ldquo;Game&rdquo;, package identifier <code>com.ragendom.tinysiege</code>) on Android and iOS, why it is
 collected, who it is shared with, and what rights you have over it.</p>
 
 <h2>1. Who is responsible for your data</h2>
@@ -64,9 +64,9 @@ worldwide.</p>
   <ul>
     <li><strong>There are no accounts.</strong> You never create one, and we never ask for your name, email address, phone number or postal address.</li>
     <li><strong>Your game progress is stored on your device</strong>, not on our servers. We do not operate any servers of our own.</li>
-    <li><strong>Third-party tools inside the Game do collect data</strong> &mdash; Google AdMob for advertising, Google Play Billing for purchases, and the Unity engine for basic device and stability information. Each is named in section 4.</li>
+    <li><strong>Third-party tools inside the Game do collect data</strong> &mdash; Google AdMob for advertising, Google Analytics for Firebase for gameplay statistics, Meta App Events for advertising measurement (Android, only with your consent), Google Play / Apple App Store billing for purchases, and the Unity engine for basic device and stability information. Each is named in section 4.</li>
     <li><strong>Personalised advertising only happens if you consent to it</strong>, and you can change your mind at any time.</li>
-    <li><strong>We never see your payment details.</strong> Google Play handles all payments.</li>
+    <li><strong>We never see your payment details.</strong> Google Play or the Apple App Store handles all payments.</li>
     <li><strong>The Game is not intended for children under 13.</strong></li>
   </ul>
 </div>
@@ -91,7 +91,7 @@ policy.</p>
 <p>Provided by Google Ireland Limited / Google LLC. The Game shows rewarded video advertisements (and may show banner or
 interstitial advertisements) through AdMob and its mediated ad partners. AdMob may collect:</p>
 <ul>
-  <li>your device advertising identifier &mdash; the <strong>Android Advertising ID (AAID)</strong>;</li>
+  <li>your device advertising identifier &mdash; the <strong>Android Advertising ID (AAID)</strong> or, on iOS and only if you allow tracking, the <strong>Identifier for Advertisers (IDFA)</strong>;</li>
   <li>IP address, and an approximate location (typically country or city level) derived from it;</li>
   <li>device information: model, operating system version, language, screen characteristics, network type;</li>
   <li>advertising interactions: which ads were shown, viewed, clicked, completed or closed;</li>
@@ -101,13 +101,13 @@ interstitial advertisements) through AdMob and its mediated ad partners. AdMob m
 and <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">How Google uses information from sites or apps that use our services</a>.
 Ad partners used through AdMob mediation are listed in the consent dialog described in section 6.</p>
 
-<h3>4.2 Google Play Billing (in-app purchases)</h3>
+<h3>4.2 Google Play Billing and Apple App Store (in-app purchases)</h3>
 
-<p>Provided by Google LLC / Google Ireland Limited. The Game offers optional purchases, such as an advertisement-removal
-entitlement and packs or bundles of in-game currency and items. Each purchase is made, validated and restored through Google Play&rsquo;s billing system,
+<p>Provided by Google LLC / Google Ireland Limited on Android and by Apple Inc. / Apple Distribution International on iOS. The Game offers optional purchases, such as an advertisement-removal
+entitlement and packs or bundles of in-game currency and items. Each purchase is made, validated and restored through Google Play&rsquo;s billing system or the App Store,
 which may process:</p>
 <ul>
-  <li>your Google account and payment details &mdash; <strong>handled entirely by Google; we never receive, see or store them</strong>;</li>
+  <li>your Google account or Apple ID and payment details &mdash; <strong>handled entirely by Google or Apple; we never receive, see or store them</strong>;</li>
   <li>purchase tokens, product identifiers, purchase state and purchase time, which the Game reads to deliver what you bought and to restore non-consumable purchases on reinstall. In-game currency and items themselves are stored only on your device.</li>
 </ul>
 <p>Google also provides us with aggregate, non-identifying statistics about installs and sales.
@@ -124,13 +124,31 @@ Technologies, Inc. (United States). The engine and its purchasing module may col
 </ul>
 <p>See the <a href="https://unity.com/legal/game-player-and-app-user-privacy-policy" rel="noopener">Unity Game Player and App User Privacy Policy</a>.</p>
 
-<h3>4.4 Google Play (distribution)</h3>
+<h3>4.4 Google Analytics for Firebase (gameplay statistics)</h3>
 
-<p>The Game is distributed through Google Play under Google&rsquo;s own terms and privacy policy. Google Play
+<p>Provided by Google Ireland Limited / Google LLC. The Game reports how it is played &mdash; for example sessions,
+stages started, won or lost, upgrades bought, optional videos watched and purchases made &mdash; together with an
+app-instance identifier, device information, Game version and approximate country. We use these statistics only
+in aggregate, to balance difficulty and fix problems. Where the GDPR applies, analytics and advertising storage stay
+<strong>off until you consent</strong> in the consent dialog (Google Consent Mode). See
+<a href="https://firebase.google.com/support/privacy" rel="noopener">Privacy and Security in Firebase</a>.</p>
+
+<h3>4.5 Meta App Events (advertising measurement, Android)</h3>
+
+<p>Provided by Meta Platforms Ireland Limited / Meta Platforms, Inc. On Android, and <strong>only after you have given
+advertising consent</strong> (or where no consent is legally required), the Game uses the Meta (Facebook) SDK to
+report app installs and launches, stages completed, ad impressions and purchases, together with the Android
+Advertising ID and device information. This lets us measure whether our advertising campaigns on Meta&rsquo;s services
+work. The Game has no Facebook login and does not read your Facebook account. Without consent the SDK stays switched
+off. See the <a href="https://www.facebook.com/privacy/policy/" rel="noopener">Meta Privacy Policy</a>.</p>
+
+<h3>4.6 Google Play and the App Store (distribution)</h3>
+
+<p>The Game is distributed through Google Play and the Apple App Store under their own terms and privacy policies. Both stores
 may show us aggregate, anonymised statistics about installs, uninstalls, crashes and ratings; these never
 identify you to us. The Game may occasionally ask whether you would like to rate it; this prompt is the
-Google Play In-App Review feature, provided by Google, and any rating or review you leave is handled by Google
-Play under its own terms. The Game does not learn whether or what you rated.</p>
+Google Play In-App Review feature or Apple&rsquo;s StoreKit review prompt, and any rating or review you leave is handled by the
+store under its own terms. The Game does not learn whether or what you rated.</p>
 
 <h2>5. Why we process this data, and our legal basis</h2>
 
@@ -152,9 +170,14 @@ Play under its own terms. The Game does not learn whether or what you rated.</p>
     <td><strong>Legitimate interests</strong> &mdash; Art. 6(1)(f): funding a free game</td>
   </tr>
   <tr>
-    <td>Showing personalised advertisements and measuring them</td>
+    <td>Showing personalised advertisements and measuring them (AdMob, Meta App Events)</td>
     <td>Advertising identifier, ad interactions, IP-derived location</td>
     <td><strong>Consent</strong> &mdash; Art. 6(1)(a). Never processed without it.</td>
+  </tr>
+  <tr>
+    <td>Gameplay statistics (Google Analytics for Firebase)</td>
+    <td>App-instance identifier, gameplay events, device information</td>
+    <td><strong>Consent</strong> &mdash; Art. 6(1)(a) where the GDPR applies</td>
   </tr>
   <tr>
     <td>Answering support and privacy requests</td>
@@ -176,7 +199,12 @@ is personalised.</p>
 Google&rsquo;s <strong>User Messaging Platform (UMP)</strong>, which lists the advertising partners
 involved and lets you accept or reject each purpose. <strong>If you decline, you will still be able to
 play the entire Game</strong>; the advertisements you see will be non-personalised. You can reopen this
-dialog at any time from <strong>Settings &rarr; Privacy Options</strong> inside the Game and change your answer.</p>
+dialog at any time from the <strong>PRIVACY</strong> button on the <strong>Shop</strong> screen inside the Game and change your answer.</p>
+
+<h3>On iOS</h3>
+<p>The Game asks for permission to track through Apple&rsquo;s <strong>App Tracking Transparency</strong> prompt. If you
+choose &ldquo;Ask App Not to Track&rdquo;, the IDFA is not available to the Game or its partners. You can change this at
+any time in <strong>iOS Settings &rarr; Privacy &amp; Security &rarr; Tracking</strong>.</p>
 
 <h3>On Android</h3>
 <p>You can reset or delete your Advertising ID, and opt out of ad personalisation entirely, in
@@ -185,7 +213,7 @@ dialog at any time from <strong>Settings &rarr; Privacy Options</strong> inside 
 <h3>Everywhere</h3>
 <p>You can opt out of personalised Google advertising at
 <a href="https://adssettings.google.com" rel="noopener">adssettings.google.com</a>.
-If the Game offers an advertisement-removal item, purchasing it stops banner and interstitial advertisements;
+Purchasing the &ldquo;Remove Ads&rdquo; item stops banner and interstitial advertisements;
 optional rewarded videos remain available if you choose to watch them.</p>
 
 <h2>7. Children</h2>
@@ -206,7 +234,9 @@ below, each of which processes it for the purposes described in section 4.</p>
 
 <table>
   <tr><th>Recipient</th><th>Role</th><th>Privacy policy</th></tr>
-  <tr><td>Google Ireland Limited / Google LLC (AdMob, Google Play)</td><td>Advertising, consent management, distribution and billing</td><td><a href="https://policies.google.com/privacy" rel="noopener">policies.google.com/privacy</a></td></tr>
+  <tr><td>Google Ireland Limited / Google LLC (AdMob, User Messaging Platform, Firebase, Google Play)</td><td>Advertising, consent management, gameplay statistics, distribution and billing</td><td><a href="https://policies.google.com/privacy" rel="noopener">policies.google.com/privacy</a></td></tr>
+  <tr><td>Apple Inc. / Apple Distribution International (App Store)</td><td>Distribution and billing on iOS</td><td><a href="https://www.apple.com/legal/privacy/" rel="noopener">apple.com/legal/privacy</a></td></tr>
+  <tr><td>Meta Platforms Ireland Limited (Meta App Events, Android, with consent)</td><td>Advertising measurement</td><td><a href="https://www.facebook.com/privacy/policy/" rel="noopener">facebook.com/privacy/policy</a></td></tr>
   <tr><td>Unity Technologies</td><td>Game engine, purchasing module, basic diagnostics</td><td><a href="https://unity.com/legal/game-player-and-app-user-privacy-policy" rel="noopener">unity.com/legal</a></td></tr>
   <tr><td>Advertising partners mediated by AdMob</td><td>Serving and measuring advertisements</td><td>Listed in the in-game consent dialog</td></tr>
 </table>
@@ -228,8 +258,10 @@ using the contact details in section 16.</p>
 <table>
   <tr><th>Data</th><th>Retention</th></tr>
   <tr><td>Game progress on your device</td><td>Until you delete the Game&rsquo;s data or uninstall it</td></tr>
-  <tr><td>Purchase records held by Google Play</td><td>For the life of the entitlement, plus the period required by accounting and tax law</td></tr>
+  <tr><td>Purchase records held by Google Play or Apple</td><td>For the life of the entitlement, plus the period required by accounting and tax law</td></tr>
   <tr><td>Advertising data held by Google and its partners</td><td>Per their own retention policies, linked in section 8</td></tr>
+  <tr><td>Gameplay statistics held by Google Analytics for Firebase</td><td>Up to <strong>14 months</strong>, then deleted automatically</td></tr>
+  <tr><td>Event data held by Meta</td><td>Per Meta&rsquo;s retention policy, linked in section 8</td></tr>
   <tr><td>Device and diagnostic data held by Unity</td><td>Per Unity&rsquo;s retention policy, linked in section 8</td></tr>
   <tr><td>Support emails</td><td>Up to <strong>24 months</strong> after the matter is closed</td></tr>
 </table>
@@ -254,11 +286,11 @@ using the contact details in section 16.</p>
   <ul>
     <li><strong>Uninstall the Game</strong> &mdash; this removes all locally stored progress from your device.</li>
     <li><strong>Reset your advertising identifier</strong> in your device settings (section 6) &mdash; this severs the link between your device and past advertising data.</li>
-    <li><strong>Withdraw consent</strong> in <strong>Settings &rarr; Privacy Options</strong> inside the Game.</li>
+    <li><strong>Withdraw consent</strong> with the <strong>PRIVACY</strong> button on the <strong>Shop</strong> screen inside the Game.</li>
   </ul>
   <p><strong>By request:</strong> email <a href="mailto:ragendom@gmail.com">ragendom@gmail.com</a> with the subject
   line <strong>&ldquo;Data deletion request &ndash; Tiny Siege&rdquo;</strong>. Because the Game has no accounts, please
-  include your device model and, if you have made a purchase, the Google Play order number, so
+  include your device model and, if you have made a purchase, the Google Play or App Store order number, so
   that the correct records can be located. We will respond within <strong>one month</strong> as required by
   Article 12(3) GDPR.</p>
 </div>
@@ -286,7 +318,7 @@ interactions), <strong>approximate geolocation</strong> (country or city derived
 <strong>commercial information</strong> (purchases made).</p>
 
 <p>You may exercise your right to opt out at any time using the in-game
-<strong>Settings &rarr; Privacy Options</strong> control, your device advertising settings, or by emailing
+<strong>PRIVACY</strong> button on the Shop screen, your device advertising settings, or by emailing
 <a href="mailto:ragendom@gmail.com">ragendom@gmail.com</a>. We will not discriminate against you for
 exercising any privacy right.</p>
 
